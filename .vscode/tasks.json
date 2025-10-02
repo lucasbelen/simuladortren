@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Limpiar cache Wollok",
+      "type": "shell",
+      "command": "Remove-Item -Recurse -Force .wpg, .wlkout, out, .wollok",
+      "problemMatcher": []
+    }
+  ]
+}
