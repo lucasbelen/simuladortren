@@ -909,3 +909,19 @@
 {"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":149,"timestamp":"2025-11-11T13:01:46.867Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\programacion\\programacion orientada a objetos\\simulador de tren\\simuladortren","timeElapsed":320659,"timestamp":"2025-11-11T13:01:54.626Z"}
 {"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\programacion\\programacion orientada a objetos\\simulador de tren\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":410,"timestamp":"2025-11-11T13:01:56.978Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":149,"timestamp":"2025-11-11T13:04:47.226Z"}
+{"level":"info","message":"⌛ Validating movimiento.wlk","timeElapsed":158,"timestamp":"2025-11-11T13:04:47.400Z"}
+{"level":"info","message":"⌛ Validating prov.wpgm","timeElapsed":159,"timestamp":"2025-11-11T13:04:52.243Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":195,"timestamp":"2025-11-11T13:04:56.371Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":117,"timestamp":"2025-11-11T13:04:56.489Z"}
+{"level":"info","message":"Removing diagnostics from /c:/Users/usuario/Desktop/programacion/programacion orientada a objetos/simulador de tren/simuladortren/prov.wpgm","timestamp":"2025-11-11T13:04:56.598Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":109,"timestamp":"2025-11-11T13:04:56.741Z"}
+{"level":"info","message":"⌛ Validating testExample.wtest","timeElapsed":174,"timestamp":"2025-11-11T13:04:57.278Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":167,"timestamp":"2025-11-11T13:04:57.446Z"}
+{"level":"info","message":"⌛ Validating movimiento.wlk","timeElapsed":125,"timestamp":"2025-11-11T13:04:57.571Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":136,"timestamp":"2025-11-11T13:04:57.707Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":127,"timestamp":"2025-11-11T13:04:57.834Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":190,"timestamp":"2025-11-11T13:04:59.902Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":157,"timestamp":"2025-11-11T13:05:00.063Z"}
+{"level":"info","message":"⌛ Validating tren.wlk","timeElapsed":113,"timestamp":"2025-11-11T13:05:00.177Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":116,"timestamp":"2025-11-11T13:05:00.388Z"}
