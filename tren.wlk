@@ -2,8 +2,8 @@ import wollok.game.*
 import vias.*
 
 object tren_ramal1{
-    var property position = game.at(0,0)
-    method image() = "tren8.png"
+    var property position = game.at(-1,0)
+    method image() = "tren9.png"
 
     method diagonal(){
         position = position.right(1).up(0.5)

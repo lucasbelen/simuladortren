@@ -1,9 +1,19 @@
 import wollok.game.*
 import tren.*
 
+object estacion{
+  var property position = game.at(-0.5,0)
+  method image() = "estacion.png"
+}
+
 object ramal1{
   var property position = game.origin() 
   method image() = "ramal1.png"
+}
+
+object findevia1{
+  var property position = game.at(24,10)
+  method image() = "finvia1.png"
 }
 
 object arboles{

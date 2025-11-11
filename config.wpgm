@@ -10,6 +10,7 @@ program chuchugame{
   game.title("Chuchu game")
 
   game.addVisual(ramal1)
+  game.addVisual(findevia1)
   game.addVisual(ramal2)
   game.addVisual(ramal3)
   game.addVisual(ramal4)
@@ -20,6 +21,7 @@ program chuchugame{
     tren_ramal1.diagonal()  
     }
 
+  game.addVisual(estacion)
   game.start()
 }
 
