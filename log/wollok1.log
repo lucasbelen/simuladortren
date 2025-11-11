@@ -2182,3 +2182,7 @@
 {"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":128,"timestamp":"2025-11-11T16:35:24.744Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\programacion\\programacion orientada a objetos\\simulador de tren\\simuladortren","timeElapsed":58739,"timestamp":"2025-11-11T16:35:28.547Z"}
 {"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\programacion\\programacion orientada a objetos\\simulador de tren\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":455,"timestamp":"2025-11-11T16:35:31.064Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":213,"timestamp":"2025-11-11T16:40:20.480Z"}
+{"level":"info","message":"⌛ Validating tren.wlk","timeElapsed":171,"timestamp":"2025-11-11T16:40:20.653Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":101,"timestamp":"2025-11-11T16:40:20.755Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":111,"timestamp":"2025-11-11T16:40:20.867Z"}
