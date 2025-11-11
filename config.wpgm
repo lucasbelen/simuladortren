@@ -15,11 +15,10 @@ program chuchugame{
   game.addVisual(ramal4)
   game.addVisual(arboles)
 
-  game.addVisualCharacter(tren)
+  game.addVisualCharacter(tren_ramal1)
   keyboard.w().onPressDo{
-    tren.position.right(1)
-    tren.position.up(1)
-  }
+    tren_ramal1.diagonal()  
+    }
 
   game.start()
 }

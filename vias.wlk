@@ -1,4 +1,5 @@
 import wollok.game.*
+import tren.*
 
 object ramal1{
   var property position = game.origin() 
