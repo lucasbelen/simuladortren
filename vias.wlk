@@ -2,7 +2,7 @@ import wollok.game.*
 import tren.*
 
 object estacion{
-  var property position = game.at(-0.5,0)
+  var property position = game.at(1,1)
   method image() = "estacion.png"
 }
 
@@ -12,7 +12,7 @@ object ramal1{
 }
 
 object findevia1{
-  var property position = game.at(24,10)
+  var property position = game.at(24,13)
   method image() = "finvia1.png"
 }
 

@@ -16,10 +16,14 @@ program chuchugame{
   game.addVisual(ramal4)
   game.addVisual(arboles)
 
-  game.addVisualCharacter(tren_ramal1)
+  keyboard.m().onPressDo{
+    game.addVisualCharacter(gestorTrenes)
+    game.addVisual(text)
+  }
+
   keyboard.w().onPressDo{
-    tren_ramal1.diagonal()  
-    }
+    gestorTrenes.diagonal()
+  }
 
   game.addVisual(estacion)
   game.start()

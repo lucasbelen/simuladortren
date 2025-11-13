@@ -1,30 +1,48 @@
 import wollok.game.*
 import vias.*
 
-object tren_ramal1{
+object gestorTrenes{
     var property position = game.at(-1,0)
-    method image() = "tren9.png"
+    var property coleccionTrenes = [1,2,3,4]
+    var property identificacion = null
 
     method diagonal(){
         position = position.right(1).up(0.5)
     }
 
-    method derecha_r1(){
+    method derecha(){
         position = position.right(1)
     }
 
-    method arriba_r1(){
+    method arriba(){
         position = position.up(0.3)
     }
 
-    method izquierda_r1(){
+    method izquierda(){
         position = position.left(1)
     }
 
-    method abajo_r1(){
+    method abajo(){
         position = position.down(1)
     }
 
+    method identificacionRamal(){
+        identificacion = coleccionTrenes.anyOne()
+        return identificacion
+    }
 
+    method image() = "tren9.png"
+          
 }
+
+object text inherits gestorTrenes{
+    var property identificacion = gestorTrenes.identificacionRamal()
+
+    method position() = game.center()
+    method text() = "Tren ramal: " + identificacion
+}
+
+
+
+
 
