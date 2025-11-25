@@ -5,7 +5,117 @@ import ramal3.*
 import textos.*
 import vias.*
 
-test "movimiento en diagonal"{
-  config.start()
-  
+test "movimiento en diagonal" {
+    ramal_1.position(game.at(1, 0))
+    ramal_1.diagonal()
+    assert.equals(game.at(2, 0.5), ramal_1.position())
 }
+
+test "movimiento hacia arriba" {
+    ramal_3.position(game.at(10, 16))
+    ramal_3.arriba()
+    assert.equals(game.at(10, 17), ramal_3.position())
+}
+
+test "movimiento hacia abajo"{
+    ramal_3.position(game.at(10, 10))
+    ramal_3.abajo()
+    assert.equals(game.at(10, 9), ramal_3.position())
+}
+
+test "movimiento hacia derecha" {
+    ramal_2.position(game.at(18, 10))
+    ramal_2.derecha()
+    assert.equals(game.at(19, 10), ramal_2.position())
+}
+
+test "movimiento hacia izquierda" {
+    ramal_2.position(game.at(18, 10))
+    ramal_2.izquierda()
+    assert.equals(game.at(17, 10), ramal_2.position())
+}
+
+ test "ramal_1 inicia con barrera en false" {
+        assert.notThat(ramal_1.barrera1())
+  }
+
+  test "ramal_2 inicia con barrera en false" {
+          assert.notThat(ramal_2.barrera2())
+ }
+
+  test "ramal_3 inicia con barrera en false" {
+            assert.notThat(ramal_3.barrera3())
+  }
+
+    test "borrar ramal_1 activa la barrera" {
+      ramal_1.barrera1(false)
+      ramal_1.borrar()
+      assert.that(ramal_1.barrera1())
+  }
+  
+    test "borrar ramal_2 activa la barrera" {
+      ramal_2.barrera2(false)
+      ramal_2.borrar2()
+      assert.that(ramal_2.barrera2())
+  }
+
+    test "borrar ramal_3 activa la barrera" {
+      ramal_3.barrera3(false)
+      ramal_3.borrar3()
+      assert.that(ramal_3.barrera3())
+  }
+
+  test "borrar ramal_1 retorna true" {
+        ramal_1.barrera1(false)
+        const resultado = ramal_1.borrar()
+        assert.that(resultado)
+    }
+
+  test "borrar ramal_2 retorna true" {
+        ramal_2.barrera2(false)
+        const resultado = ramal_2.borrar2()
+        assert.that(resultado)
+    }
+
+  test "borrar ramal_3 retorna true" {
+        ramal_3.barrera3(false)
+        const resultado = ramal_3.borrar3()
+        assert.that(resultado)
+    }
+
+  test "regenerar ramal_1 restaura posición inicial" {
+        ramal_1.position(game.at(10, 10))
+        ramal_1.barrera1(true)
+        ramal_1.regenerar()
+        assert.equals(game.at(1, 0), ramal_1.position())
+    }
+
+  test "regenerar ramal_2 restaura posición inicial" {
+        ramal_2.position(game.at(10, 10))
+        ramal_2.barrera2(true)
+        ramal_2.regenerar2()
+        assert.equals(game.at(18, 10), ramal_2.position())
+    }
+
+  test "regenerar ramal_3 restaura posición inicial" {
+        ramal_3.position(game.at(10, 10))
+        ramal_3.barrera3(true)
+        ramal_3.regenerar3()
+        assert.equals(game.at(26, 4), ramal_3.position())
+    }  
+
+  test "ramal_1 se crea exitosamente"{
+        ramal_1.crearTren()
+        assert.equals(game.at(1,0), ramal_1.position())
+    }
+
+
+  test "ramal_2 se crea exitosamente"{
+        ramal_2.crearTren2()
+        assert.equals(game.at(18,10), ramal_2.position())
+    } 
+  
+  test "ramal_3 se crea exitosamente"{
+        ramal_3.crearTren3()
+        assert.equals(game.at(26,4), ramal_3.position())
+    }
