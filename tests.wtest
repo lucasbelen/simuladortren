@@ -119,3 +119,5 @@ test "movimiento hacia izquierda" {
         ramal_3.crearTren3()
         assert.equals(game.at(26,4), ramal_3.position())
     }
+
+  

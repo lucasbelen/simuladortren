@@ -110,3 +110,22 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":192,"timestamp":"2025-11-25T13:44:58.600Z"}
 {"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":200,"timestamp":"2025-11-25T13:44:58.821Z"}
 {"level":"info","message":"🧪 Test runner executed on c:\\Users\\usuario\\Desktop\\programacion\\programacion orientada a objetos\\simulador de tren\\simuladortren","result":{"errored":0,"failed":0,"ok":20},"testsFailed":[],"timeElapsed":1153,"timestamp":"2025-11-25T13:51:21.519Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":428,"timestamp":"2025-11-25T14:03:00.782Z"}
+{"level":"info","message":"⌛ Validating ramal1.wlk","timeElapsed":470,"timestamp":"2025-11-25T14:03:01.418Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":281,"timestamp":"2025-11-25T14:03:03.429Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":446,"timestamp":"2025-11-25T14:03:04.032Z"}
+{"level":"info","message":"🧪 Test runner executed on c:\\Users\\usuario\\Desktop\\programacion\\programacion orientada a objetos\\simulador de tren\\simuladortren","result":{"errored":0,"failed":0,"ok":20},"testsFailed":[],"timeElapsed":1145,"timestamp":"2025-11-25T14:25:29.718Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":288,"timestamp":"2025-11-25T14:26:04.799Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":280,"timestamp":"2025-11-25T14:26:05.082Z"}
+{"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":243,"timestamp":"2025-11-25T14:26:05.325Z"}
+{"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":312,"timestamp":"2025-11-25T14:26:05.692Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":236,"timestamp":"2025-11-25T14:26:05.929Z"}
+{"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":278,"timestamp":"2025-11-25T14:26:06.245Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\programacion\\programacion orientada a objetos\\simulador de tren\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":1173,"timestamp":"2025-11-25T14:52:28.876Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":242,"timestamp":"2025-11-25T14:52:32.753Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":325,"timestamp":"2025-11-25T14:52:33.100Z"}
+{"level":"info","message":"🧪 Test runner executed on c:\\Users\\usuario\\Desktop\\programacion\\programacion orientada a objetos\\simulador de tren\\simuladortren","result":{"errored":0,"failed":0,"ok":1},"testsFailed":[],"timeElapsed":1292,"timestamp":"2025-11-25T14:53:53.858Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":228,"timestamp":"2025-11-25T15:03:47.941Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":379,"timestamp":"2025-11-25T15:03:48.421Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":277,"timestamp":"2025-11-25T15:03:48.822Z"}
+{"level":"info","message":"⌛ Validating textos.wlk","timeElapsed":461,"timestamp":"2025-11-25T15:03:49.570Z"}
