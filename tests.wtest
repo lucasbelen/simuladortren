@@ -1,0 +1,11 @@
+import config.*
+import ramal1.*
+import ramal2.*
+import ramal3.*
+import textos.*
+import vias.*
+
+test "movimiento en diagonal"{
+  config.start()
+  
+}
