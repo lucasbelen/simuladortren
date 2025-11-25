@@ -53,6 +53,7 @@ program chuchugame{
   })
 
     game.onCollideDo(ramal_3, {finvia3 =>
+    game.removeVisual(ramal_3)
     ramal_3.borrar3()  
     game.removeVisual(avisoramal2)
     game.addVisual(avisoramal1)  

@@ -18,7 +18,7 @@ object ramal_2{
     }
 
     method crearTren2(){
-        if (barrera2 == true){
+        if (barrera2){
         self.regenerar2()
     }
     else{
@@ -33,7 +33,7 @@ object ramal_2{
     }
 
     method regenerar2(){
-        if (barrera2 == true){
+        if (barrera2){
             position = game.at(18,10)
             game.addVisual(self)
             barrera2 = false

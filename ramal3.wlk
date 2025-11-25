@@ -2,9 +2,11 @@ import wollok.game.*
 import vias.*
 
 object ramal_3 {
-    var property position = game.at(26,4)
+    var property position = game.at(26,-10)
     var property identificacion = 3
     var property barrera3 = false
+
+        method image() = "tren4.png"
 
     method arriba(){
         position = position.up(1)
@@ -15,7 +17,7 @@ object ramal_3 {
     }
    
     method crearTren3(){
-        if (barrera3 == true){
+        if (barrera3){
         self.regenerar3()
     }
     else{
@@ -30,13 +32,12 @@ object ramal_3 {
     }
 
     method regenerar3(){
-        if (barrera3 == true){
-            position = game.at(26,4)
+        if (barrera3){
+            position = game.at(26,-10)
             game.addVisual(self)
             barrera3 = false
         }
         return barrera3
     }
 
-    method image() = "tren4.png"
 }
