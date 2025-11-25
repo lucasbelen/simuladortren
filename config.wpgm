@@ -1,6 +1,9 @@
 import wollok.game.*
 import vias.*
-import tren.*
+import ramal1.*
+import ramal2.*
+import ramal3.*
+import textos.*
 
 program chuchugame{
   game.width(33)
@@ -12,23 +15,68 @@ program chuchugame{
   game.addVisual(ramal1)
   game.addVisual(findevia1)
   game.addVisual(ramal2)
+  game.addVisual(finvia2)
   game.addVisual(ramal3)
+  game.addVisual(finvia3)
+  game.addVisual(avisoramal1)
+  
 
   keyboard.m().onPressDo{
-    gestorTrenes.crearTren()
+    ramal_1.crearTren()
+  }
+
+  keyboard.a().onPressDo{
+    ramal_2.izquierda()
   }
 
   keyboard.w().onPressDo{
-    gestorTrenes.diagonal()
+    ramal_1.diagonal()
   }
 
   keyboard.s().onPressDo{
-    gestorTrenes.diagonalInversa()
+    ramal_1.diagonalInversa()
+  }
+
+  keyboard.d().onPressDo{
+    ramal_1.derecha()
+    ramal_2.derecha()
   }
   
-  game.onCollideDo(gestorTrenes, {findevia1 =>
-    gestorTrenes.borrar()  
+  game.onCollideDo(ramal_1, {findevia1 =>
+    ramal_1.borrar()  
   })
+
+  game.onCollideDo(ramal_2, {finvia2 =>
+    ramal_2.borrar2()
+    game.removeVisual(avisoramal2)
+    game.addVisual(avisoramal1)  
+  })
+
+    game.onCollideDo(ramal_3, {finvia3 =>
+    ramal_3.borrar3()  
+    game.removeVisual(avisoramal2)
+    game.addVisual(avisoramal1)  
+  })
+
+  keyboard.e().onPressDo{
+      ramal_1.borrar()
+      ramal_2.crearTren2()
+      game.removeVisual(avisoramal1)
+      game.addVisual(avisoramal2)
+  }
+
+  keyboard.z().onPressDo{
+      ramal_2.borrar2()
+      ramal_3.crearTren3()
+  }
+
+  keyboard.s().onPressDo{
+    ramal_3.abajo()
+  }
+
+  keyboard.w().onPressDo{
+    ramal_3.arriba()
+  }
 
   game.addVisual(estacion)
   game.start()

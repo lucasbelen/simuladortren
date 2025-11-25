@@ -1,5 +1,8 @@
 import wollok.game.*
-import tren.*
+import ramal1.*
+import ramal2.*
+import ramal3.*
+import textos.*
 
 object estacion{
   var property position = game.at(1,0)
@@ -22,12 +25,21 @@ object arboles{
 }
 
 object ramal2{
-  var property position = game.at(21,10)
+  var property position = game.at(18,8)
   method image() = "ramal2.png"
 }
 
+object finvia2{
+  var property position = game.at(32,10)
+  method image() = "finvia2.png"
+}
+
 object ramal3{
-  var property position = game.at(29,-2) 
+  var property position = game.at(25,-4) 
   method image() = "ramal3.png"
 }
 
+object finvia3{
+  var property position = game.at(25,-4)
+  method image() = "finvia3.png"
+}
