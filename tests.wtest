@@ -101,7 +101,7 @@ test "movimiento hacia izquierda" {
         ramal_3.position(game.at(10, 10))
         ramal_3.barrera3(true)
         ramal_3.regenerar3()
-        assert.equals(game.at(26, 4), ramal_3.position())
+        assert.equals(game.at(26, -10), ramal_3.position())
     }  
 
   test "ramal_1 se crea exitosamente"{
@@ -117,7 +117,7 @@ test "movimiento hacia izquierda" {
   
   test "ramal_3 se crea exitosamente"{
         ramal_3.crearTren3()
-        assert.equals(game.at(26,4), ramal_3.position())
+        assert.equals(game.at(26,-10), ramal_3.position())
     }
 
   
