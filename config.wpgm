@@ -13,17 +13,22 @@ program chuchugame{
   game.addVisual(findevia1)
   game.addVisual(ramal2)
   game.addVisual(ramal3)
-  game.addVisual(ramal4)
-  game.addVisual(arboles)
 
   keyboard.m().onPressDo{
-    game.addVisualCharacter(gestorTrenes)
-    game.addVisual(text)
+    gestorTrenes.crearTren()
   }
 
   keyboard.w().onPressDo{
     gestorTrenes.diagonal()
   }
+
+  keyboard.s().onPressDo{
+    gestorTrenes.diagonalInversa()
+  }
+  
+  game.onCollideDo(gestorTrenes, {findevia1 =>
+    gestorTrenes.borrar()  
+  })
 
   game.addVisual(estacion)
   game.start()

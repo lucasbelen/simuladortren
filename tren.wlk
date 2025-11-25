@@ -2,12 +2,17 @@ import wollok.game.*
 import vias.*
 
 object gestorTrenes{
-    var property position = game.at(-1,0)
+    var property position = game.at(1,0)
     var property coleccionTrenes = [1,2,3,4]
     var property identificacion = null
+    var property barrera = false
 
     method diagonal(){
         position = position.right(1).up(0.5)
+    }
+
+    method diagonalInversa(){
+        position = position.left(1).down(0.5)
     }
 
     method derecha(){
@@ -31,7 +36,32 @@ object gestorTrenes{
         return identificacion
     }
 
-    method image() = "tren9.png"
+    method crearTren(){
+        if (barrera == true){
+        self.regenerar()
+    }
+    else{
+      game.addVisualCharacter(self)
+    }
+    }
+
+    method borrar(){
+        game.removeVisual(self)
+        barrera = true
+        return barrera  
+    }
+
+    method regenerar(){
+        if (barrera == true){
+            position = game.at(1,0)
+            game.addVisual(self)
+            barrera = false
+        }
+        return barrera
+    }
+    
+
+    method image() = "tren2.png"
           
 }
 
