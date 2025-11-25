@@ -3836,3 +3836,9 @@
 {"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":224,"timestamp":"2025-11-25T12:51:20.842Z"}
 {"level":"info","message":"⌛ Building environment","timeElapsed":336,"timestamp":"2025-11-25T12:51:21.207Z"}
 {"level":"info","message":"⌛ Building environment","timeElapsed":111,"timestamp":"2025-11-25T12:51:21.319Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":135,"timestamp":"2025-11-25T12:51:21.483Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":261,"timestamp":"2025-11-25T12:51:21.748Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":277,"timestamp":"2025-11-25T12:51:22.026Z"}
+{"level":"info","message":"⌛ Validating textos.wlk","timeElapsed":392,"timestamp":"2025-11-25T12:51:22.420Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":443,"timestamp":"2025-11-25T12:51:22.872Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":409,"timestamp":"2025-11-25T12:51:23.282Z"}
