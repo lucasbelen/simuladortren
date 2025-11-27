@@ -1,9 +1,7 @@
 import wollok.game.*
 import vias.*
-import ramal1.*
-import ramal2.*
-import ramal3.*
 import textos.*
+import trenes.*
 
 program chuchugame{
   game.width(33)
@@ -20,61 +18,81 @@ program chuchugame{
   game.addVisual(finvia3)
   game.addVisual(avisoramal1)
   
+  const tren1 = new Trenes(
+    posicionInicial = game.at(1,0),
+    position = game.at(1,0),
+    identificacion = "TR1",
+    image = "tren2.png"
+  )
+
+  const tren2 = new Trenes(
+      posicionInicial = game.at(18,10),
+      position = game.at(18,10),
+      identificacion = "TR2",
+      image = "tren5.png"
+  )
+
+  const tren3 = new Trenes(
+      posicionInicial = game.at(26,-10),
+      position = game.at(26,-10),
+      identificacion = "TR3",
+      image = "tren4.png"
+  )
 
   keyboard.m().onPressDo{
-    ramal_1.crearTren()
+    tren1.crearTren()
   }
 
   keyboard.a().onPressDo{
-    ramal_2.izquierda()
+    tren2.izquierda()
   }
 
   keyboard.w().onPressDo{
-    ramal_1.diagonal()
+    tren1.diagonal()
   }
 
   keyboard.s().onPressDo{
-    ramal_1.diagonalInversa()
+    tren1.diagonalInversa()
   }
 
   keyboard.d().onPressDo{
-    ramal_1.derecha()
-    ramal_2.derecha()
+    tren1.derecha()
+    tren2.derecha()
   }
   
-  game.onCollideDo(ramal_1, {findevia1 =>
-    ramal_1.borrar()  
+  game.onCollideDo(tren1, {findevia1 =>
+    tren1.borrar()  
   })
 
-  game.onCollideDo(ramal_2, {finvia2 =>
-    ramal_2.borrar2()
+  game.onCollideDo(tren2, {finvia2 =>
+    tren2.borrar()
     game.removeVisual(avisoramal2)
     game.addVisual(avisoramal1)  
   })
 
-  game.onCollideDo(ramal_3, {finvia3 =>
-    ramal_3.borrar3()  
+  game.onCollideDo(tren3, {finvia3 =>
+    tren3.borrar()  
     game.removeVisual(avisoramal2)
   })
 
   keyboard.e().onPressDo{
-      ramal_1.borrar()
-      ramal_2.crearTren2()
+      tren1.borrar()
+      tren2.crearTren()
       game.removeVisual(avisoramal1)
       game.addVisual(avisoramal2)
   }
 
   keyboard.z().onPressDo{
-      ramal_2.borrar2()
-      ramal_3.crearTren3()
+      tren2.borrar()
+      tren3.crearTren()
   }
 
   keyboard.s().onPressDo{
-    ramal_3.abajo()
+    tren3.abajo()
   }
 
   keyboard.w().onPressDo{
-    ramal_3.arriba()
+    tren3.arriba()
   }
 
   game.addVisual(estacion)

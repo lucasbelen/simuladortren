@@ -1,7 +1,5 @@
 import wollok.game.*
-import ramal1.*
-import ramal2.*
-import ramal3.*
+import trenes.*
 import textos.*
 
 object estacion{
