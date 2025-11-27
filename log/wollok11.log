@@ -291,3 +291,8 @@
 {"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":156,"timestamp":"2025-11-27T14:58:08.455Z"}
 {"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":147,"timestamp":"2025-11-27T14:58:08.606Z"}
 {"level":"info","message":"🧪 Test runner executed on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","result":{"errored":0,"failed":0,"ok":14},"testsFailed":[],"timeElapsed":718,"timestamp":"2025-11-27T14:58:15.565Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":209,"timestamp":"2025-11-27T14:58:24.518Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":132,"timestamp":"2025-11-27T14:58:24.651Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":111,"timestamp":"2025-11-27T14:58:24.763Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":102,"timestamp":"2025-11-27T14:58:24.865Z"}
+{"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":124,"timestamp":"2025-11-27T14:58:24.990Z"}
