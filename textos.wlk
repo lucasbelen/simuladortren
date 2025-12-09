@@ -7,6 +7,6 @@ class Avisosramal{
   var property texto = ""  
 
   method text(){
-    texto = null
+    return texto
   }
 }

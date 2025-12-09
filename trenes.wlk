@@ -47,8 +47,7 @@ class Trenes {
         if (!barrera){
         game.removeVisual(self)
         barrera = true
-        }
-        return barrera 
+        } 
     }
 
     method regenerar(){
