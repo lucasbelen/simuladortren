@@ -804,3 +804,10 @@
 {"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":107,"timestamp":"2025-12-09T18:31:20.308Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":110577,"timestamp":"2025-12-09T18:32:06.247Z"}
 {"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":651,"timestamp":"2025-12-09T18:32:10.084Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":137,"timestamp":"2025-12-09T19:25:26.638Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":188,"timestamp":"2025-12-09T19:25:26.831Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":123,"timestamp":"2025-12-09T19:25:27.329Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":221,"timestamp":"2025-12-09T19:25:27.551Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":159,"timestamp":"2025-12-09T19:25:27.818Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":111,"timestamp":"2025-12-09T19:25:27.930Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":173,"timestamp":"2025-12-09T19:25:28.105Z"}
