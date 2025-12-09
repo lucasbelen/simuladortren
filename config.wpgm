@@ -9,14 +9,6 @@ program chuchugame{
   game.cellSize(50)
   game.ground("terreno1.png")
   game.title("Chuchu game")
-
-  game.addVisual(ramal1)
-  game.addVisual(findevia1)
-  game.addVisual(ramal2)
-  game.addVisual(finvia2)
-  game.addVisual(ramal3)
-  game.addVisual(finvia3)
-  game.addVisual(avisoramal1)
   
   const tren1 = new Trenes(
     posicionInicial = game.at(1,0),
@@ -38,6 +30,55 @@ program chuchugame{
       identificacion = "TR3",
       image = "tren4.png"
   )
+
+  const ramales = [
+    new Ramales(
+      position = game.at(1,0),
+      imagen = "ramal1.png"
+    ),
+    new Ramales(
+      position = game.at(18,8),
+      imagen = "ramal2.png"
+    ),
+    new Ramales(
+      position = game.at(25,-4),
+      imagen = "ramal3.png"
+    )
+  ]
+
+  const finesdevia = [
+    new Finesdevia(
+      position = game.at(23,13),
+      imagen = "finvia1.png"
+    ),
+    new Finesdevia(
+      position = game.at(32,10),
+      imagen = "finvia2.png"
+    ),
+    new Finesdevia(
+      position = game.at(25,-4),
+      imagen = "finvia3.png"
+    )
+  ]
+
+  const avisosramal = [
+    new Avisosramal(
+      position = game.at(20,6),
+      texto = "Presione E para cambiar al ramal 2"
+    ),
+    new Avisosramal(
+      position = game.at(20,6),
+      texto = "Presione Z para cambiar al ramal 3"
+    )
+  ]
+
+  game.addVisual(ramales.get(0))
+  game.addVisual(finesdevia.get(0))
+  game.addVisual(ramales.get(1))
+  game.addVisual(finesdevia.get(1))
+  game.addVisual(ramales.get(2))
+  game.addVisual(finesdevia.get(2))
+  game.addVisual(avisosramal.get(0))
 
   keyboard.m().onPressDo{
     tren1.crearTren()
@@ -66,20 +107,20 @@ program chuchugame{
 
   game.onCollideDo(tren2, {finvia2 =>
     tren2.borrar()
-    game.removeVisual(avisoramal2)
-    game.addVisual(avisoramal1)  
+    game.removeVisual(avisosramal.get(0))
+    game.addVisual(avisosramal.get(1))  
   })
 
   game.onCollideDo(tren3, {finvia3 =>
     tren3.borrar()  
-    game.removeVisual(avisoramal2)
+    game.removeVisual(avisosramal.get(1))
   })
 
   keyboard.e().onPressDo{
       tren1.borrar()
       tren2.crearTren()
-      game.removeVisual(avisoramal1)
-      game.addVisual(avisoramal2)
+      game.removeVisual(avisosramal.get(0))
+      game.addVisual(avisosramal.get(1))
   }
 
   keyboard.z().onPressDo{

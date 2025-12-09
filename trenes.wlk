@@ -43,9 +43,12 @@ class Trenes {
     }
 
     method borrar(){
+        barrera = false
+        if (!barrera){
         game.removeVisual(self)
         barrera = true
-        return barrera  
+        }
+        return barrera 
     }
 
     method regenerar(){
