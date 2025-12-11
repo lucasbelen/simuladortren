@@ -26,7 +26,7 @@ program chuchugame{
 
   const tren3 = new Trenes(
       posicionInicial = game.at(26,-10),
-      position = game.at(26,-10),
+      position = game.at(2,-10),
       identificacion = "TR3",
       image = "tren4.png"
   )
