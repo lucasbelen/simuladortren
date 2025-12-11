@@ -917,3 +917,227 @@
 {"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":140,"timestamp":"2025-12-11T18:11:59.961Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":58279,"timestamp":"2025-12-11T18:12:02.472Z"}
 {"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":697,"timestamp":"2025-12-11T18:12:07.515Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":316,"timestamp":"2025-12-11T18:22:24.227Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":404,"timestamp":"2025-12-11T18:22:24.735Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":242,"timestamp":"2025-12-11T18:22:24.979Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":317,"timestamp":"2025-12-11T18:22:25.372Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":454,"timestamp":"2025-12-11T18:22:28.471Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":397,"timestamp":"2025-12-11T18:22:28.887Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":252,"timestamp":"2025-12-11T18:22:29.193Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":413,"timestamp":"2025-12-11T18:22:29.669Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":275,"timestamp":"2025-12-11T18:23:07.850Z"}
+{"level":"error","message":"✘ Failed to rebuild document Failed to parse trenes.wlk: \n-- PARSING FAILED --------------------------------------------------\n\nGot the end of the input\n\nExpected one of the following: \n\n'@', 'const', 'method', 'override', 'var', '{', '}', any character/byte, comment, whitespace\n","stack":"Error: Failed to parse trenes.wlk: \n-- PARSING FAILED --------------------------------------------------\n\nGot the end of the input\n\nExpected one of the following: \n\n'@', 'const', 'method', 'override', 'var', '{', '}', any character/byte, comment, whitespace\n\n    at c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2348:13026\n    at Array.map (<anonymous>)\n    at W1n (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2348:12950)\n    at U2.buildEnvironmentFrom (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2393:5254)\n    at U2.updateEnvironmentWith (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2393:4989)\n    at JF (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2393:7383)\n    at F3.invoke (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:3:157334)\n    at o.fire (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:3:158104)\n    at c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:37:57871\n    at Zr (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:8:1561)","timestamp":"2025-12-11T18:23:07.914Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":367,"timestamp":"2025-12-11T18:23:08.283Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":238,"timestamp":"2025-12-11T18:23:12.148Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":277,"timestamp":"2025-12-11T18:23:12.461Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":321,"timestamp":"2025-12-11T18:23:12.821Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":394,"timestamp":"2025-12-11T18:23:13.223Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":437,"timestamp":"2025-12-11T18:23:13.662Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":190,"timestamp":"2025-12-11T18:23:13.878Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":203,"timestamp":"2025-12-11T18:23:14.104Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":193,"timestamp":"2025-12-11T18:23:14.333Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":333,"timestamp":"2025-12-11T18:23:14.667Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":222,"timestamp":"2025-12-11T18:23:14.892Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":201,"timestamp":"2025-12-11T18:23:15.095Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":214,"timestamp":"2025-12-11T18:23:15.311Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":221,"timestamp":"2025-12-11T18:23:15.535Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":575,"timestamp":"2025-12-11T18:23:16.113Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":227,"timestamp":"2025-12-11T18:23:16.342Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":338,"timestamp":"2025-12-11T18:23:16.686Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":188,"timestamp":"2025-12-11T18:23:16.875Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":294,"timestamp":"2025-12-11T18:23:17.215Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":401,"timestamp":"2025-12-11T18:23:17.617Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":424,"timestamp":"2025-12-11T18:23:18.048Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":322,"timestamp":"2025-12-11T18:23:18.370Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":379,"timestamp":"2025-12-11T18:23:18.760Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":291,"timestamp":"2025-12-11T18:23:19.055Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":258,"timestamp":"2025-12-11T18:23:19.316Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":343,"timestamp":"2025-12-11T18:23:19.661Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":294,"timestamp":"2025-12-11T18:23:19.961Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":316,"timestamp":"2025-12-11T18:23:20.291Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":241,"timestamp":"2025-12-11T18:23:20.534Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":377,"timestamp":"2025-12-11T18:23:20.942Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":360,"timestamp":"2025-12-11T18:23:21.307Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":349,"timestamp":"2025-12-11T18:23:21.664Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":277,"timestamp":"2025-12-11T18:23:22.115Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":316,"timestamp":"2025-12-11T18:23:22.442Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":288,"timestamp":"2025-12-11T18:23:22.731Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":283,"timestamp":"2025-12-11T18:23:23.196Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":423,"timestamp":"2025-12-11T18:23:23.621Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":245,"timestamp":"2025-12-11T18:23:23.868Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":345,"timestamp":"2025-12-11T18:23:24.215Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":329,"timestamp":"2025-12-11T18:23:24.569Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":261,"timestamp":"2025-12-11T18:23:24.841Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":201,"timestamp":"2025-12-11T18:23:31.155Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":456,"timestamp":"2025-12-11T18:23:31.622Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":236,"timestamp":"2025-12-11T18:23:31.934Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":310,"timestamp":"2025-12-11T18:23:32.261Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":713650,"timestamp":"2025-12-11T18:24:00.467Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":1629,"timestamp":"2025-12-11T18:24:12.557Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":455,"timestamp":"2025-12-11T18:26:09.683Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":409,"timestamp":"2025-12-11T18:26:10.233Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":169704,"timestamp":"2025-12-11T18:27:00.630Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":1698,"timestamp":"2025-12-11T18:27:09.925Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":426,"timestamp":"2025-12-11T18:27:52.629Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":384,"timestamp":"2025-12-11T18:27:53.016Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":384,"timestamp":"2025-12-11T18:27:53.455Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":330,"timestamp":"2025-12-11T18:27:53.789Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":54672,"timestamp":"2025-12-11T18:28:02.897Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":1333,"timestamp":"2025-12-11T18:28:11.712Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":400,"timestamp":"2025-12-11T18:33:04.026Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":474,"timestamp":"2025-12-11T18:33:04.503Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":362,"timestamp":"2025-12-11T18:33:05.000Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":322,"timestamp":"2025-12-11T18:33:05.327Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":329447,"timestamp":"2025-12-11T18:33:39.844Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":1265,"timestamp":"2025-12-11T18:33:49.671Z"}
+{"level":"info","message":"🧪 Test runner executed on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","result":{"errored":0,"failed":0,"ok":1},"testsFailed":[],"timeElapsed":1520,"timestamp":"2025-12-11T18:38:22.605Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":453,"timestamp":"2025-12-11T18:38:44.498Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":512,"timestamp":"2025-12-11T18:38:45.052Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":344,"timestamp":"2025-12-11T18:38:45.398Z"}
+{"level":"info","message":"⌛ Autocomplete - Reference","timeElapsed":118,"timestamp":"2025-12-11T18:38:45.545Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":490,"timestamp":"2025-12-11T18:38:46.039Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":249,"timestamp":"2025-12-11T18:38:46.372Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":276,"timestamp":"2025-12-11T18:38:46.789Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":316,"timestamp":"2025-12-11T18:38:47.108Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":571,"timestamp":"2025-12-11T18:38:47.683Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":255,"timestamp":"2025-12-11T18:38:48.066Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":372,"timestamp":"2025-12-11T18:38:48.454Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":506,"timestamp":"2025-12-11T18:38:48.976Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":224,"timestamp":"2025-12-11T18:38:49.203Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":395,"timestamp":"2025-12-11T18:38:49.697Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":220,"timestamp":"2025-12-11T18:38:49.925Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":461,"timestamp":"2025-12-11T18:38:50.390Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":336,"timestamp":"2025-12-11T18:38:50.765Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":451,"timestamp":"2025-12-11T18:38:51.220Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":557,"timestamp":"2025-12-11T18:38:51.785Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":358,"timestamp":"2025-12-11T18:38:52.144Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":268,"timestamp":"2025-12-11T18:38:52.414Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":239,"timestamp":"2025-12-11T18:38:52.677Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":367,"timestamp":"2025-12-11T18:38:53.059Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":201,"timestamp":"2025-12-11T18:38:53.268Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":361,"timestamp":"2025-12-11T18:38:53.669Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":361,"timestamp":"2025-12-11T18:38:54.036Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":207,"timestamp":"2025-12-11T18:38:54.249Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":319,"timestamp":"2025-12-11T18:38:54.569Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":175,"timestamp":"2025-12-11T18:38:54.765Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":242,"timestamp":"2025-12-11T18:38:55.010Z"}
+{"level":"error","message":"✘ Completions for node Send ([34:8, 34:28] - trenes.wlk) failed: Error: [Send]{0f2aab} at trenes.wlk:34 exhausted all cases without a match [Send]{0f2aab} at trenes.wlk:34 exhausted all cases without a match","stack":"Error: [Send]{0f2aab} at trenes.wlk:34 exhausted all cases without a match\n    at c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:38:6142\n    at D2 (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2384:42)\n    at Qh (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2384:1092)\n    at k6n (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2384:1248)\n    at c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:38:6131\n    at D2 (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2384:42)\n    at c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2384:2988\n    at c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:2393:8440\n    at c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:37:74872\n    at Ye (c:\\Users\\usuario\\.vscode\\extensions\\uqbar.wollok-lsp-ide-0.5.3\\out\\server\\src\\server.js:7:8527)","timestamp":"2025-12-11T18:38:55.079Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":169,"timestamp":"2025-12-11T18:38:55.294Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":184,"timestamp":"2025-12-11T18:38:55.512Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":178,"timestamp":"2025-12-11T18:38:55.730Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":565,"timestamp":"2025-12-11T18:38:56.342Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":157,"timestamp":"2025-12-11T18:38:56.533Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":311,"timestamp":"2025-12-11T18:38:56.877Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":250,"timestamp":"2025-12-11T18:38:57.128Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":396,"timestamp":"2025-12-11T18:38:57.527Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":190,"timestamp":"2025-12-11T18:38:57.719Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":405,"timestamp":"2025-12-11T18:38:58.150Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":295,"timestamp":"2025-12-11T18:38:58.447Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":314,"timestamp":"2025-12-11T18:38:58.902Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":364,"timestamp":"2025-12-11T18:38:59.268Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":287,"timestamp":"2025-12-11T18:38:59.567Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":319,"timestamp":"2025-12-11T18:38:59.897Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":330,"timestamp":"2025-12-11T18:39:00.231Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":286,"timestamp":"2025-12-11T18:39:00.519Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":264,"timestamp":"2025-12-11T18:39:00.787Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":334,"timestamp":"2025-12-11T18:39:01.126Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":284,"timestamp":"2025-12-11T18:39:01.411Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":306,"timestamp":"2025-12-11T18:39:01.718Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":294,"timestamp":"2025-12-11T18:39:02.012Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":333,"timestamp":"2025-12-11T18:39:02.359Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":332511,"timestamp":"2025-12-11T18:39:20.922Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":1289,"timestamp":"2025-12-11T18:39:30.017Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":601,"timestamp":"2025-12-11T18:58:32.560Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":315,"timestamp":"2025-12-11T18:58:33.021Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":398,"timestamp":"2025-12-11T18:58:33.424Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":292,"timestamp":"2025-12-11T18:58:33.719Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":334,"timestamp":"2025-12-11T18:58:34.070Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":501,"timestamp":"2025-12-11T18:58:34.574Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":364,"timestamp":"2025-12-11T18:58:34.991Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":848,"timestamp":"2025-12-11T18:58:35.841Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":611,"timestamp":"2025-12-11T18:58:36.453Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":356,"timestamp":"2025-12-11T18:58:36.817Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":1148353,"timestamp":"2025-12-11T18:58:37.080Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":1261,"timestamp":"2025-12-11T18:58:46.890Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":587265,"timestamp":"2025-12-11T19:08:32.915Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":386,"timestamp":"2025-12-11T19:09:08.448Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":243,"timestamp":"2025-12-11T19:09:08.699Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":122,"timestamp":"2025-12-11T19:09:08.925Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":143,"timestamp":"2025-12-11T19:09:09.069Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":412,"timestamp":"2025-12-11T19:09:09.784Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":114,"timestamp":"2025-12-11T19:09:09.906Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":380,"timestamp":"2025-12-11T19:09:10.289Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":402,"timestamp":"2025-12-11T19:09:10.696Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":126,"timestamp":"2025-12-11T19:09:10.835Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":133,"timestamp":"2025-12-11T19:09:10.969Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":263,"timestamp":"2025-12-11T19:09:11.234Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":150,"timestamp":"2025-12-11T19:09:11.385Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":177,"timestamp":"2025-12-11T19:09:11.562Z"}
+{"level":"info","message":"⌛ Validating textos.wlk","timeElapsed":160,"timestamp":"2025-12-11T19:09:11.722Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":147,"timestamp":"2025-12-11T19:09:11.870Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":123,"timestamp":"2025-12-11T19:09:11.995Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":111,"timestamp":"2025-12-11T19:09:12.106Z"}
+{"level":"info","message":"⌛ Validating textos.wlk","timeElapsed":118,"timestamp":"2025-12-11T19:09:12.226Z"}
+{"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":261,"timestamp":"2025-12-11T19:09:14.014Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":315,"timestamp":"2025-12-11T19:09:14.979Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":185,"timestamp":"2025-12-11T19:09:15.165Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":136,"timestamp":"2025-12-11T19:09:15.302Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":144,"timestamp":"2025-12-11T19:09:15.447Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":150,"timestamp":"2025-12-11T19:09:15.597Z"}
+{"level":"info","message":"⌛ Validating textos.wlk","timeElapsed":158,"timestamp":"2025-12-11T19:09:15.756Z"}
+{"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":155,"timestamp":"2025-12-11T19:09:15.912Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":176,"timestamp":"2025-12-11T19:09:16.090Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":170,"timestamp":"2025-12-11T19:09:16.261Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":337,"timestamp":"2025-12-11T19:09:53.594Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":157,"timestamp":"2025-12-11T19:09:53.761Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":110,"timestamp":"2025-12-11T19:09:53.872Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":137,"timestamp":"2025-12-11T19:09:54.010Z"}
+{"level":"info","message":"⌛ Validating textos.wlk","timeElapsed":109,"timestamp":"2025-12-11T19:09:54.119Z"}
+{"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":112,"timestamp":"2025-12-11T19:09:54.231Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":114,"timestamp":"2025-12-11T19:09:54.345Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":119,"timestamp":"2025-12-11T19:09:54.465Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":226,"timestamp":"2025-12-11T19:10:03.638Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":205,"timestamp":"2025-12-11T19:10:03.843Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":139,"timestamp":"2025-12-11T19:10:03.983Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":137,"timestamp":"2025-12-11T19:10:04.134Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":188,"timestamp":"2025-12-11T19:10:11.722Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":159,"timestamp":"2025-12-11T19:10:11.883Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":149,"timestamp":"2025-12-11T19:10:12.032Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":142,"timestamp":"2025-12-11T19:10:12.191Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":895,"timestamp":"2025-12-11T19:10:22.120Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":13137,"timestamp":"2025-12-11T19:10:34.357Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":835,"timestamp":"2025-12-11T19:10:40.121Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":188,"timestamp":"2025-12-11T19:11:10.676Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":224,"timestamp":"2025-12-11T19:11:10.901Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":210,"timestamp":"2025-12-11T19:11:11.111Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":209,"timestamp":"2025-12-11T19:11:11.343Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":39835,"timestamp":"2025-12-11T19:11:19.119Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":956,"timestamp":"2025-12-11T19:11:25.047Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":37213,"timestamp":"2025-12-11T19:12:01.301Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":854,"timestamp":"2025-12-11T19:12:07.654Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed config.chuchugame on c:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren","timeElapsed":168802,"timestamp":"2025-12-11T19:14:55.601Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":492,"timestamp":"2025-12-11T19:15:11.678Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":469,"timestamp":"2025-12-11T19:15:12.152Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":206,"timestamp":"2025-12-11T19:15:12.390Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":184,"timestamp":"2025-12-11T19:15:12.575Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":356,"timestamp":"2025-12-11T19:15:12.933Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":202,"timestamp":"2025-12-11T19:15:13.138Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":125,"timestamp":"2025-12-11T19:15:13.307Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":258,"timestamp":"2025-12-11T19:15:13.567Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":358,"timestamp":"2025-12-11T19:15:13.929Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":207,"timestamp":"2025-12-11T19:15:14.138Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":169,"timestamp":"2025-12-11T19:15:14.309Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":431,"timestamp":"2025-12-11T19:15:14.741Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":200,"timestamp":"2025-12-11T19:15:14.942Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":195,"timestamp":"2025-12-11T19:15:15.173Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":147,"timestamp":"2025-12-11T19:15:15.320Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":167,"timestamp":"2025-12-11T19:15:15.488Z"}
+{"level":"info","message":"⌛ Validating textos.wlk","timeElapsed":163,"timestamp":"2025-12-11T19:15:15.651Z"}
+{"level":"info","message":"⌛ Validating config.wpgm","timeElapsed":171,"timestamp":"2025-12-11T19:15:15.822Z"}
+{"level":"info","message":"⌛ Validating vias.wlk","timeElapsed":172,"timestamp":"2025-12-11T19:15:15.995Z"}
+{"level":"info","message":"⌛ Validating trenes.wlk","timeElapsed":125,"timestamp":"2025-12-11T19:15:16.121Z"}
+{"level":"info","message":"⌛ Validating textos.wlk","timeElapsed":112,"timestamp":"2025-12-11T19:15:16.234Z"}
+{"level":"info","message":"⌛ Validating tests.wtest","timeElapsed":167,"timestamp":"2025-12-11T19:15:16.401Z"}
+{"level":"info","message":"⌛ Validating mainExample.wpgm","timeElapsed":169,"timestamp":"2025-12-11T19:15:16.571Z"}
+{"level":"info","message":"⌛ Validating example.wlk","timeElapsed":164,"timestamp":"2025-12-11T19:15:16.735Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mconfig.chuchugame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\usuario\\Desktop\\backup wollok\\simuladortren\u001b[39m\u001b[23m","ok":true,"timeElapsed":868,"timestamp":"2025-12-11T19:15:29.301Z"}

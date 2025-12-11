@@ -31,6 +31,7 @@ class Trenes {
 
     method abajo(){
         position = position.down(1)
+        console.println(position)
     }
 
     method crearTren(){
@@ -43,11 +44,8 @@ class Trenes {
     }
 
     method borrar(){
-        barrera = false
-        if (!barrera){
         game.removeVisual(self)
         barrera = true
-        } 
     }
 
     method regenerar(){
