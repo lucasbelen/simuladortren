@@ -25,15 +25,15 @@ program chuchugame{
   )
 
   const tren3 = new Trenes(
-      posicionInicial = game.at(26,6),
-      position = game.at(26,6),
+      posicionInicial = game.center(),
+      position = game.center(),
       identificacion = "TR3",
       image = "tren8.png"
   )
 
   const tren4 = new Trenes(
-    posicionInicial = game.at(18,9),
-    position = game.at(18,9),
+    posicionInicial = game.at(16,9),
+    position = game.at(16,9),
     identificacion = "TR4",
     image = "tren6.png"
   )
@@ -55,7 +55,7 @@ program chuchugame{
 
   const finesdevia = [
     new Finesdevia(
-      position = game.at(23,13),
+      position = game.at(24,11.5),
       imagen = "finvia1.png"
     ),
     new Finesdevia(
@@ -98,7 +98,7 @@ program chuchugame{
   game.addVisual(avisosramal.get(2))
 
   keyboard.m().onPressDo{
-    tren1.crearTren()
+    game.addVisual(tren1)
   }
 
   keyboard.a().onPressDo{
@@ -126,6 +126,7 @@ program chuchugame{
 
   game.onCollideDo(tren2, {finvia2 =>
     tren2.borrar()
+    tren4.restablecer()
     game.removeVisual(avisosramal.get(0))
     game.addVisual(avisosramal.get(1))  
   })
@@ -136,24 +137,28 @@ program chuchugame{
   })
 
   game.onCollideDo(tren4, {finvia2 =>
-    tren4.borrar()  
+    tren4.borrar()
+    tren2.restablecer()  
   })
 
   keyboard.e().onPressDo{
       tren1.borrar()
-      tren2.crearTren()
+      game.addVisual(tren2)
       game.removeVisual(avisosramal.get(0))
       game.addVisual(avisosramal.get(1))
   }
 
   keyboard.z().onPressDo{
       tren2.borrar()
-      tren3.crearTren()
+      tren4.restablecer()
+      game.addVisual(tren3)
+      game.removeVisual(avisosramal.get(1))
   }
 
   keyboard.o().onPressDo{
     tren1.borrar()
-    tren4.crearTren()
+    game.addVisual(tren4)
+    game.removeVisual(avisosramal.get(2)) 
   }
 
   keyboard.s().onPressDo{

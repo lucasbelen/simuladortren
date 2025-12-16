@@ -10,6 +10,7 @@ class Trenes {
 
     method diagonal(){
         position = position.right(1).up(0.5)
+        console.println(position)
     }
 
      method derecha(){
@@ -31,31 +32,18 @@ class Trenes {
 
     method abajo(){
         position = position.down(1)
-        console.println(position)
     }
 
-    method crearTren(){
-        if (barrera){
-        self.regenerar()
-    }
-    else{
-      game.addVisual(self)
-    }
+    method restablecer(){
+        position = posicionInicial
     }
 
     method borrar(){
         game.removeVisual(self)
-        barrera = true
+        self.restablecer()
     }
 
-    method regenerar(){
-        if (barrera){
-            position = posicionInicial
-            game.addVisual(self)
-            barrera = false
-        }
-        return barrera
-    }
+
 }
 
 
