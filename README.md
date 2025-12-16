@@ -1,7 +1,7 @@
 # 🚆 Simulador de tren en Wollok Game
 
 El juego consta de simular la salida de un tren desde una estación.  
-El jugador cuenta con **3 ramales**, y al terminar el recorrido en cualquiera de ellos, el tren **desaparece** y puede volver a ser creado.
+El jugador cuenta con **4 ramales**, y al terminar el recorrido en cualquiera de ellos, el tren **desaparece** y puede volver a ser creado.
 
 ---
 
@@ -16,7 +16,8 @@ Conectado a **Ramal 2**.
 - **M** — Crear tren  
 - **W** — Movimiento en diagonal  
 - **S** — Movimiento en diagonal inverso  
-- **E** — Cambiar a Ramal 2  
+- **E** — Cambiar a Ramal 2
+- **O** - Cambiar a Ramal 4
 
 ---
 
@@ -35,10 +36,22 @@ Conectado a **Ramal 3**.
 ## 🌐 Ramal 3 — Sur
 
 Dirección en **vertical**.  
-Último ramal, no conecta a ninguno.
+No conecta a ningún ramal.
 
 ### Controles
 - **W** — Movimiento hacia arriba  
 - **S** — Movimiento hacia abajo  
 
+---
+
+## 🌐 Ramal 4 — Oeste
+
+Dirección en **horizontal**.  
+No conecta a ningún ramal.
+
+### Controles
+- **D** — Movimiento a la derecha  
+- **A** — Movimiento a la izquierda  
+
+---
 
