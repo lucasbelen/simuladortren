@@ -6,7 +6,6 @@ class Trenes {
     var property position = null
     var property identificacion = null
     const property image = null
-    var property barrera = false
 
     method diagonal(){
         position = position.right(1).up(0.5)
