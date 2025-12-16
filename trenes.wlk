@@ -10,11 +10,11 @@ class Trenes {
 
     method diagonal(){
         position = position.right(1).up(0.5)
-        console.println(position)
     }
 
      method derecha(){
         position = position.right(1)
+        console.println(position)
     }
 
     method diagonalInversa(){
@@ -24,6 +24,7 @@ class Trenes {
 
     method izquierda(){
         position = position.left(1)
+        console.println(position)
     }
 
     method arriba(){

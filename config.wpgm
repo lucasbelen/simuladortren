@@ -25,8 +25,8 @@ program chuchugame{
   )
 
   const tren3 = new Trenes(
-      posicionInicial = game.center(),
-      position = game.center(),
+      posicionInicial = game.at(22,8),
+      position = game.at(22,8),
       identificacion = "TR3",
       image = "tren8.png"
   )
@@ -108,10 +108,12 @@ program chuchugame{
 
   keyboard.w().onPressDo{
     tren1.diagonal()
+    tren3.arriba()
   }
 
   keyboard.s().onPressDo{
     tren1.diagonalInversa()
+    tren3.abajo()
   }
 
   keyboard.d().onPressDo{
@@ -149,24 +151,15 @@ program chuchugame{
   }
 
   keyboard.z().onPressDo{
-      tren2.borrar()
       tren4.restablecer()
+      tren2.borrar()
       game.addVisual(tren3)
-      game.removeVisual(avisosramal.get(1))
   }
 
   keyboard.o().onPressDo{
     tren1.borrar()
     game.addVisual(tren4)
     game.removeVisual(avisosramal.get(2)) 
-  }
-
-  keyboard.s().onPressDo{
-    tren3.abajo()
-  }
-
-  keyboard.w().onPressDo{
-    tren3.arriba()
   }
 
   game.addVisual(estacion)
