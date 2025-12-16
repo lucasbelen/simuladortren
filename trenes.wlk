@@ -39,7 +39,7 @@ class Trenes {
         self.regenerar()
     }
     else{
-      game.addVisualCharacter(self)
+      game.addVisual(self)
     }
     }
 

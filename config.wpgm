@@ -7,7 +7,7 @@ program chuchugame{
   game.width(33)
   game.height(15)
   game.cellSize(50)
-  game.ground("fondo.png")
+  game.ground("terreno1.png")
   game.title("Chuchu game")
   
   const tren1 = new Trenes(
@@ -18,17 +18,24 @@ program chuchugame{
   )
 
   const tren2 = new Trenes(
-      posicionInicial = game.at(18,10),
-      position = game.at(18,10),
+      posicionInicial = game.at(18,9),
+      position = game.at(18,9),
       identificacion = "TR2",
       image = "tren5.png"
   )
 
   const tren3 = new Trenes(
-      posicionInicial = game.at(26,-10),
-      position = game.at(26,-10),
+      posicionInicial = game.at(26,5),
+      position = game.at(26,5),
       identificacion = "TR3",
-      image = "tren4.png"
+      image = "tren8.png"
+  )
+
+  const tren4 = new Trenes(
+    posicionInicial = game.at(18,6),
+    position = game.at(18,6),
+    identificacion = "TR4",
+    image = "tren6.png"
   )
 
   const ramales = [
@@ -37,11 +44,11 @@ program chuchugame{
       imagen = "ramal1.png"
     ),
     new Ramales(
-      position = game.at(18,8),
-      imagen = "ramal2.png"
+      position = game.at(3,9),
+      imagen = "ramal4.png"
     ),
     new Ramales(
-      position = game.at(25,-4),
+      position = game.at(26,1),
       imagen = "ramal3.png"
     )
   ]
@@ -52,12 +59,16 @@ program chuchugame{
       imagen = "finvia1.png"
     ),
     new Finesdevia(
-      position = game.at(32,10),
+      position = game.at(32,9),
       imagen = "finvia2.png"
     ),
     new Finesdevia(
-      position = game.at(26,-4),
-      imagen = "finvia3-1.png"
+      position = game.at(26,-5),
+      imagen = "finvia3.png"
+    ),
+    new Finesdevia(
+      position = game.at(0,9),
+      imagen = "finvia2.png"
     )
   ]
 
@@ -69,6 +80,10 @@ program chuchugame{
     new Avisosramal(
       position = game.at(20,6),
       texto = "Presione Z para cambiar al ramal 3"
+    ),
+    new Avisosramal (
+      position = game.at(20,6),
+      texto = "Presione O para cambiar al ramal 4"
     )
   ]
 
@@ -78,7 +93,9 @@ program chuchugame{
   game.addVisual(finesdevia.get(1))
   game.addVisual(ramales.get(2))
   game.addVisual(finesdevia.get(2))
+  game.addVisual(finesdevia.get(3))
   game.addVisual(avisosramal.get(0))
+  game.addVisual(avisosramal.get(2))
 
   keyboard.m().onPressDo{
     tren1.crearTren()
