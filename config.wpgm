@@ -25,15 +25,15 @@ program chuchugame{
   )
 
   const tren3 = new Trenes(
-      posicionInicial = game.at(26,5),
-      position = game.at(26,5),
+      posicionInicial = game.at(26,6),
+      position = game.at(26,6),
       identificacion = "TR3",
       image = "tren8.png"
   )
 
   const tren4 = new Trenes(
-    posicionInicial = game.at(18,6),
-    position = game.at(18,6),
+    posicionInicial = game.at(18,9),
+    position = game.at(18,9),
     identificacion = "TR4",
     image = "tren6.png"
   )
@@ -82,7 +82,7 @@ program chuchugame{
       texto = "Presione Z para cambiar al ramal 3"
     ),
     new Avisosramal (
-      position = game.at(20,6),
+      position = game.at(20,7),
       texto = "Presione O para cambiar al ramal 4"
     )
   ]
@@ -103,6 +103,7 @@ program chuchugame{
 
   keyboard.a().onPressDo{
     tren2.izquierda()
+    tren4.izquierda()
   }
 
   keyboard.w().onPressDo{
@@ -116,6 +117,7 @@ program chuchugame{
   keyboard.d().onPressDo{
     tren1.derecha()
     tren2.derecha()
+    tren4.derecha()
   }
   
   game.onCollideDo(tren1, {findevia1 =>
@@ -133,6 +135,10 @@ program chuchugame{
     game.removeVisual(avisosramal.get(1))
   })
 
+  game.onCollideDo(tren4, {finvia2 =>
+    tren4.borrar()  
+  })
+
   keyboard.e().onPressDo{
       tren1.borrar()
       tren2.crearTren()
@@ -143,6 +149,11 @@ program chuchugame{
   keyboard.z().onPressDo{
       tren2.borrar()
       tren3.crearTren()
+  }
+
+  keyboard.o().onPressDo{
+    tren1.borrar()
+    tren4.crearTren()
   }
 
   keyboard.s().onPressDo{
