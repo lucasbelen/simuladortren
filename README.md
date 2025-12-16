@@ -46,7 +46,7 @@ No conecta a ningún ramal.
 
 ## 🌐 Ramal 4 — Oeste
 
-Dirección en **horizontal**.
+Dirección en **horizontal**.  
 No conecta a ningún ramal.
 
 ### Controles
